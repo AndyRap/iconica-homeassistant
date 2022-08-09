@@ -1,0 +1,12 @@
+{
+    "server": "192.168.178.6",
+    "port": "1883",
+    "topic": "homeassistant",
+    "devicename": "Inverter",
+    "manufacturer": "Iconica",
+    "model": "ICBM300024",
+    "serial": "33A856E1",
+    "ver": "6.23_1.09",
+    "username": "mqtt",
+    "password": "0"
+}

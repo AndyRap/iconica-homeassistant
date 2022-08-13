@@ -49,7 +49,7 @@ PV_in_voltage=`echo $INVERTER_DATA | jq '.PV_in_voltage' -r`
 [ ! -z "$PV_in_voltage" ] && pushMQTTData "PV_in_voltage" "$PV_in_voltage"
 
 PV_in_current=`echo $INVERTER_DATA | jq '.PV_in_current' -r`
-[ ! -z "$PV_in_current" ] && pushMQTTData "PV_in_current" "$PV_in_current / 2"
+[ ! -z "$PV_in_current" ] && pushMQTTData "PV_in_current" "$PV_in_current"
 
 PV_in_watts=`echo $INVERTER_DATA | jq '.PV_in_watts' -r`
 [ ! -z "$PV_in_watts" ] && pushMQTTData "PV_in_watts" "$PV_in_watts"
